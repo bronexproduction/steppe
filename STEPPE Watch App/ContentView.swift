@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationView {
             Text(stepsProvider.steps.stepsToString)
         }.onAppear {
-            stepsProvider.reloadStepsCount()
+            stepsProvider.reloadStepCount()
         }
     }
 }

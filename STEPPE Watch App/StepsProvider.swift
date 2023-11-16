@@ -11,16 +11,12 @@ class StepsProvider: ObservableObject {
     
     private let healthStore = HKHealthStore()
     
-    @Published var steps: Double? = nil {
-        didSet {
-            print(steps)
-        }
-    }
+    @Published var steps: Double? = nil
 }
 
 extension StepsProvider {
     
-    func reloadStepsCount() {
+    func reloadStepCount() {
         healthStore.requestAuthorization(toShare: nil, read: [.quantityType(forIdentifier: .stepCount)!]) { [weak self] success, error in
             guard success, error == nil else {
                 self?.steps = .nan
