@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F318EE8E2B0699070039BDDD /* STEPPE Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F318EE8D2B0699070039BDDD /* STEPPE Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F318EE932B0699070039BDDD /* STEPPEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318EE922B0699070039BDDD /* STEPPEApp.swift */; };
+		F318EE952B0699070039BDDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318EE942B0699070039BDDD /* ContentView.swift */; };
+		F318EE972B0699070039BDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F318EE962B0699070039BDDD /* Assets.xcassets */; };
+		F318EE9A2B0699080039BDDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F318EE992B0699080039BDDD /* Preview Assets.xcassets */; };
+		F318EEA42B0699080039BDDD /* STEPPE_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318EEA32B0699080039BDDD /* STEPPE_Watch_AppTests.swift */; };
+		F318EEAE2B0699080039BDDD /* STEPPE_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318EEAD2B0699080039BDDD /* STEPPE_Watch_AppUITests.swift */; };
+		F318EEB02B0699080039BDDD /* STEPPE_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318EEAF2B0699080039BDDD /* STEPPE_Watch_AppUITestsLaunchTests.swift */; };
+		F318EEC12B0699510039BDDD /* StepsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318EEC02B0699510039BDDD /* StepsProvider.swift */; };
+		F318EEC42B06A0310039BDDD /* Double+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F318EEC32B06A0310039BDDD /* Double+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F318EE8F2B0699070039BDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F318EE812B0699060039BDDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F318EE8C2B0699070039BDDD;
+			remoteInfo = "STEPPE Watch App";
+		};
+		F318EEA02B0699080039BDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F318EE812B0699060039BDDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F318EE8C2B0699070039BDDD;
+			remoteInfo = "STEPPE Watch App";
+		};
+		F318EEAA2B0699080039BDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F318EE812B0699060039BDDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F318EE8C2B0699070039BDDD;
+			remoteInfo = "STEPPE Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F318EEB62B0699080039BDDD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F318EE8E2B0699070039BDDD /* STEPPE Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F318EE872B0699060039BDDD /* STEPPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STEPPE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F318EE8D2B0699070039BDDD /* STEPPE Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEPPE Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F318EE922B0699070039BDDD /* STEPPEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEPPEApp.swift; sourceTree = "<group>"; };
+		F318EE942B0699070039BDDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F318EE962B0699070039BDDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F318EE992B0699080039BDDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F318EE9F2B0699080039BDDD /* STEPPE Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STEPPE Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F318EEA32B0699080039BDDD /* STEPPE_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEPPE_Watch_AppTests.swift; sourceTree = "<group>"; };
+		F318EEA92B0699080039BDDD /* STEPPE Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STEPPE Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F318EEAD2B0699080039BDDD /* STEPPE_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEPPE_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		F318EEAF2B0699080039BDDD /* STEPPE_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEPPE_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F318EEC02B0699510039BDDD /* StepsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsProvider.swift; sourceTree = "<group>"; };
+		F318EEC22B06998E0039BDDD /* STEPPE Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "STEPPE Watch App.entitlements"; sourceTree = "<group>"; };
+		F318EEC32B06A0310039BDDD /* Double+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F318EE8A2B0699070039BDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F318EE9C2B0699080039BDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F318EEA62B0699080039BDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F318EE802B0699060039BDDD = {
+			isa = PBXGroup;
+			children = (
+				F318EE912B0699070039BDDD /* STEPPE Watch App */,
+				F318EEA22B0699080039BDDD /* STEPPE Watch AppTests */,
+				F318EEAC2B0699080039BDDD /* STEPPE Watch AppUITests */,
+				F318EE882B0699060039BDDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F318EE882B0699060039BDDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F318EE872B0699060039BDDD /* STEPPE.app */,
+				F318EE8D2B0699070039BDDD /* STEPPE Watch App.app */,
+				F318EE9F2B0699080039BDDD /* STEPPE Watch AppTests.xctest */,
+				F318EEA92B0699080039BDDD /* STEPPE Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F318EE912B0699070039BDDD /* STEPPE Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F318EEC22B06998E0039BDDD /* STEPPE Watch App.entitlements */,
+				F318EE922B0699070039BDDD /* STEPPEApp.swift */,
+				F318EE942B0699070039BDDD /* ContentView.swift */,
+				F318EE962B0699070039BDDD /* Assets.xcassets */,
+				F318EE982B0699080039BDDD /* Preview Content */,
+				F318EEC02B0699510039BDDD /* StepsProvider.swift */,
+				F318EEC32B06A0310039BDDD /* Double+Ext.swift */,
+			);
+			path = "STEPPE Watch App";
+			sourceTree = "<group>";
+		};
+		F318EE982B0699080039BDDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F318EE992B0699080039BDDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F318EEA22B0699080039BDDD /* STEPPE Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F318EEA32B0699080039BDDD /* STEPPE_Watch_AppTests.swift */,
+			);
+			path = "STEPPE Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F318EEAC2B0699080039BDDD /* STEPPE Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F318EEAD2B0699080039BDDD /* STEPPE_Watch_AppUITests.swift */,
+				F318EEAF2B0699080039BDDD /* STEPPE_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "STEPPE Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F318EE862B0699060039BDDD /* STEPPE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F318EEB72B0699080039BDDD /* Build configuration list for PBXNativeTarget "STEPPE" */;
+			buildPhases = (
+				F318EE852B0699060039BDDD /* Resources */,
+				F318EEB62B0699080039BDDD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F318EE902B0699070039BDDD /* PBXTargetDependency */,
+			);
+			name = STEPPE;
+			productName = STEPPE;
+			productReference = F318EE872B0699060039BDDD /* STEPPE.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F318EE8C2B0699070039BDDD /* STEPPE Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F318EEB32B0699080039BDDD /* Build configuration list for PBXNativeTarget "STEPPE Watch App" */;
+			buildPhases = (
+				F318EE892B0699070039BDDD /* Sources */,
+				F318EE8A2B0699070039BDDD /* Frameworks */,
+				F318EE8B2B0699070039BDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STEPPE Watch App";
+			productName = "STEPPE Watch App";
+			productReference = F318EE8D2B0699070039BDDD /* STEPPE Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F318EE9E2B0699080039BDDD /* STEPPE Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F318EEBA2B0699080039BDDD /* Build configuration list for PBXNativeTarget "STEPPE Watch AppTests" */;
+			buildPhases = (
+				F318EE9B2B0699080039BDDD /* Sources */,
+				F318EE9C2B0699080039BDDD /* Frameworks */,
+				F318EE9D2B0699080039BDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F318EEA12B0699080039BDDD /* PBXTargetDependency */,
+			);
+			name = "STEPPE Watch AppTests";
+			productName = "STEPPE Watch AppTests";
+			productReference = F318EE9F2B0699080039BDDD /* STEPPE Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F318EEA82B0699080039BDDD /* STEPPE Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F318EEBD2B0699080039BDDD /* Build configuration list for PBXNativeTarget "STEPPE Watch AppUITests" */;
+			buildPhases = (
+				F318EEA52B0699080039BDDD /* Sources */,
+				F318EEA62B0699080039BDDD /* Frameworks */,
+				F318EEA72B0699080039BDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F318EEAB2B0699080039BDDD /* PBXTargetDependency */,
+			);
+			name = "STEPPE Watch AppUITests";
+			productName = "STEPPE Watch AppUITests";
+			productReference = F318EEA92B0699080039BDDD /* STEPPE Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F318EE812B0699060039BDDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F318EE862B0699060039BDDD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F318EE8C2B0699070039BDDD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F318EE9E2B0699080039BDDD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F318EE8C2B0699070039BDDD;
+					};
+					F318EEA82B0699080039BDDD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F318EE8C2B0699070039BDDD;
+					};
+				};
+			};
+			buildConfigurationList = F318EE842B0699060039BDDD /* Build configuration list for PBXProject "STEPPE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F318EE802B0699060039BDDD;
+			productRefGroup = F318EE882B0699060039BDDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F318EE862B0699060039BDDD /* STEPPE */,
+				F318EE8C2B0699070039BDDD /* STEPPE Watch App */,
+				F318EE9E2B0699080039BDDD /* STEPPE Watch AppTests */,
+				F318EEA82B0699080039BDDD /* STEPPE Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F318EE852B0699060039BDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F318EE8B2B0699070039BDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F318EE9A2B0699080039BDDD /* Preview Assets.xcassets in Resources */,
+				F318EE972B0699070039BDDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F318EE9D2B0699080039BDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F318EEA72B0699080039BDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F318EE892B0699070039BDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F318EE952B0699070039BDDD /* ContentView.swift in Sources */,
+				F318EE932B0699070039BDDD /* STEPPEApp.swift in Sources */,
+				F318EEC42B06A0310039BDDD /* Double+Ext.swift in Sources */,
+				F318EEC12B0699510039BDDD /* StepsProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F318EE9B2B0699080039BDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F318EEA42B0699080039BDDD /* STEPPE_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F318EEA52B0699080039BDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F318EEAE2B0699080039BDDD /* STEPPE_Watch_AppUITests.swift in Sources */,
+				F318EEB02B0699080039BDDD /* STEPPE_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F318EE902B0699070039BDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F318EE8C2B0699070039BDDD /* STEPPE Watch App */;
+			targetProxy = F318EE8F2B0699070039BDDD /* PBXContainerItemProxy */;
+		};
+		F318EEA12B0699080039BDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F318EE8C2B0699070039BDDD /* STEPPE Watch App */;
+			targetProxy = F318EEA02B0699080039BDDD /* PBXContainerItemProxy */;
+		};
+		F318EEAB2B0699080039BDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F318EE8C2B0699070039BDDD /* STEPPE Watch App */;
+			targetProxy = F318EEAA2B0699080039BDDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F318EEB12B0699080039BDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F318EEB22B0699080039BDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F318EEB42B0699080039BDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "STEPPE Watch App/STEPPE Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STEPPE Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = KQK9QPN5S8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = STEPPE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need the permission in order to access steps count";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bronexproduction.STEPPE.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F318EEB52B0699080039BDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "STEPPE Watch App/STEPPE Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STEPPE Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = KQK9QPN5S8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = STEPPE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need the permission in order to access steps count";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bronexproduction.STEPPE.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F318EEB82B0699080039BDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQK9QPN5S8;
+				INFOPLIST_KEY_CFBundleDisplayName = STEPPE;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bronexproduction.STEPPE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F318EEB92B0699080039BDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQK9QPN5S8;
+				INFOPLIST_KEY_CFBundleDisplayName = STEPPE;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.bronexproduction.STEPPE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F318EEBB2B0699080039BDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.bronexproduction.STEPPE-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEPPE Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STEPPE Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F318EEBC2B0699080039BDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.bronexproduction.STEPPE-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEPPE Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STEPPE Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F318EEBE2B0699080039BDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.bronexproduction.STEPPE-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "STEPPE Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F318EEBF2B0699080039BDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.bronexproduction.STEPPE-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "STEPPE Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F318EE842B0699060039BDDD /* Build configuration list for PBXProject "STEPPE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F318EEB12B0699080039BDDD /* Debug */,
+				F318EEB22B0699080039BDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F318EEB32B0699080039BDDD /* Build configuration list for PBXNativeTarget "STEPPE Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F318EEB42B0699080039BDDD /* Debug */,
+				F318EEB52B0699080039BDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F318EEB72B0699080039BDDD /* Build configuration list for PBXNativeTarget "STEPPE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F318EEB82B0699080039BDDD /* Debug */,
+				F318EEB92B0699080039BDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F318EEBA2B0699080039BDDD /* Build configuration list for PBXNativeTarget "STEPPE Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F318EEBB2B0699080039BDDD /* Debug */,
+				F318EEBC2B0699080039BDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F318EEBD2B0699080039BDDD /* Build configuration list for PBXNativeTarget "STEPPE Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F318EEBE2B0699080039BDDD /* Debug */,
+				F318EEBF2B0699080039BDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F318EE812B0699060039BDDD /* Project object */;
+}
